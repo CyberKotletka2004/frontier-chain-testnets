@@ -1,0 +1,46 @@
+{
+  "type": "cosmos-sdk/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "varvarafroontier",
+            "identity": "",
+            "website": "",
+            "security_contact": "",
+            "details": ""
+          },
+          "commission": {
+            "rate": "0.100000000000000000",
+            "max_rate": "0.200000000000000000",
+            "max_change_rate": "0.010000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "front1vrga4rlsn0896dlsgvv4ypvkpxffq7y9z8r2q5",
+          "validator_address": "frontvaloper1vrga4rlsn0896dlsgvv4ypvkpxffq7y9kg3yfy",
+          "pubkey": "frontvalconspub1zcjduepq2p3tjjn8vja8ytfmzczd5lp65hy8c9w9f6f7vnaa938vjhhckp8qs30y2x",
+          "value": {
+            "denom": "front",
+            "amount": "1000000000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "A1ixxc6OhPpUndxIWU9nDef8mXEY8vufLJxgYSs2gg+9"
+        },
+        "signature": "nkD7Vtc16NL3rqrN3p7Z3m84Y51bCmJHALnKsAnUkuwqsxKioX2gOuHFvu0INfyEXu6yTdnQNYYYnFT1ggAMLQ=="
+      }
+    ],
+    "memo": "805a1b4fcd58f8d785da3d3dd2be5c479bca0779@167.172.110.190:26656"
+  }
+}
